@@ -187,6 +187,7 @@ function flash_scripts() {
 
 	// Add custom fonts, used in the main stylesheet.
 	wp_enqueue_style( 'flash-fonts', flash_fonts_url(), array(), null );
+        wp_enqueue_style( 'ubuntu-fonts', 'https://fonts.googleapis.com/css?family=Ubuntu%3A400%2C500%2C700&subset=latin%2Clatin-ext', array(), null );
 
 	// Font Awessome
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome'.$suffix.'.css' , array(), false, false);

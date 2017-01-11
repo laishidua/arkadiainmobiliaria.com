@@ -112,8 +112,8 @@ function flash_footer_copyright() {
 <div class="copyright">
 	<span class="copyright-text">
 	<?php printf( esc_html__( 'Copyright %1$s %2$s %3$s.', 'flash' ), '&copy; ', date( 'Y' ), get_bloginfo( 'name' ) ); ?>
-	<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'flash' ), 'Flash', '<a href="https://themegrill.com/wordpress-themes/" rel="designer">ThemeGrill</a>' ); ?>
-	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'flash' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'flash' ), 'WordPress' ); ?></a>
+<!--?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'flash' ), 'Flash', '<a href="https://themegrill.com/wordpress-themes/" rel="designer">ThemeGrill</a>' ); ?-->
+	<a href="<?php echo esc_url( __( 'https://www.laishidua.com/es/', 'flash' ) ); ?>"><?php printf( esc_html__( 'Desarrollado por %s', 'flash' ), 'laishidua.com' ); ?></a>
 	</span>
 </div><!-- .copyright -->
 <?php
@@ -143,8 +143,9 @@ function flash_breadcrumbs() {
 		// Build the breadcrums
 		echo '<ul class="trail-items">';
 
-		// Home page
-		echo '<li class="trail-item trail-begin"><a class="trail-home" href="' . esc_html( get_home_url() ) . '" title="' . $home_title . '"><span>' . $home_title . '</span></a></li>';
+		// Home page MODIFICADO
+		//echo '<li class="trail-item trail-begin"><a class="trail-home" href="' . esc_html( get_home_url() ) . '" title="' . $home_title . '"><span>' . $home_title . '</span></a></li>';
+                echo '<li class="trail-item trail-begin"><a class="trail-home" href="' . esc_html( get_home_url() ) . '" title="Inicio"><span>Inicio</span></a></li>';
 
 		if ( is_archive() && is_tax() && !is_category() && !is_tag() ) {
 
@@ -485,7 +486,7 @@ function flash_custom_fonts() {
 	$font_family = $google_fonts[ $body_font ];
 
 	if( isset( $font_family ) ) {
-		$flash_custom_fonts_values .= 'body { font-family: "'.$font_family.'"; }';
+		$flash_custom_fonts_values .= 'body { font-family: "Ubuntu", "'.$font_family.'"; font-weight: 500; }';
 	}
 
 

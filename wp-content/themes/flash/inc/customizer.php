@@ -594,7 +594,7 @@ function flash_customize_register( $wp_customize ) {
 		'label'       => esc_html__( 'Secondary Text Color', 'flash' ),
 		'section'     => 'colors',
 	) ) );
-
+/*
 	// Typography Options
 	$flash_fonts_families = array(
 		'flash_body_font' => array(
@@ -613,13 +613,13 @@ function flash_customize_register( $wp_customize ) {
 			'panel'    => 'flash_theme_options'
 		)
 	);
-
+*/
 	// Typography Options
 	$flash_fonts_families = array(
 		'flash_body_font' => array(
 			'id'      => 'flash_body_font',
 			'default' => 'Montserrat:400,700',
-			'title'   => esc_html__( 'Body font. Default is "Montserrat".', 'flash' ),
+			'title'   => esc_html__( 'Body font. Default is "Montserrat".', 'flash' )
 		)
 	);
 

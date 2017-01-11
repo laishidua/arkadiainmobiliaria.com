@@ -915,7 +915,7 @@ msgid "4 Footer Widgets"
 msgstr ""
 
 #: inc/customizer.php:780 inc/customizer.php:799
-msgid "Body font. Default is \"Montserrat\"."
+msgid "Body font. Default is \"Ubuntu\"."
 msgstr ""
 
 #: inc/customizer.php:789 inc/customizer.php:808

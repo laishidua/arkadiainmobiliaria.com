@@ -4,11 +4,11 @@ Donate link: http://dazzlersoftware.com/
 Tags: admin, coming soon, coming soon page, coming soon wp, coming soon wordPress plugin, construction, countdown timer, email, gmail, landing page, launch, launch page, maintenance, maintenance mode, message, newsletter, notify, offline, preview, subscriber, ultimate coming soon page, ultimate landing page, unavailable, under construction, underconstruction,  under construction page, wordpress coming soon, wordpress landing page, wordpress maintenance mode, wordpress maintenance mode plugin, wordpress under construction, wordpress under construction page
 Requires at least: 3.5.1
 Tested up to: 4.7
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Coming Soon a Modern and responsive plugin, manage your website while it's under construction , maintenance mode or Site offline .
+Coming Soon wp is best wordpress coming soon plugin to manage your website while it's under construction , maintenance mode or Coming Soon .
  
 == Description ==
 
@@ -120,6 +120,9 @@ Please use WordPress support forum to ask any query regarding any issue.
 
 
 == Changelog ==
+
+= 1.3.2 =
+* update small css code
 
 = 1.3.1 =
 * Minor bug resolved

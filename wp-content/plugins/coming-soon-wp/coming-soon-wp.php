@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Coming Soon wp
- * Version: 1.3.1
+ * Version: 1.3.2
  * Description: Coming Soon Wp plugin is Modern and responsive, manage your website while under construction or maintenance mode.
  * Author: dazzlersoft
  * Author URI: http://www.dazzlersoftware.com
